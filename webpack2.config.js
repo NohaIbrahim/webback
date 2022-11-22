@@ -36,7 +36,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin(), new MiniCssExtractPlugin("style.min.css"),
+  plugins: [new HtmlWebpackPlugin(), new MiniCssExtractPlugin({filename:"style.min.css"}),
  
   ],
   optimization: {
